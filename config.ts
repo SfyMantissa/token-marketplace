@@ -1,0 +1,10 @@
+const config = {
+  RYUUKO_ADDRESS: "0x2fbAD1c8b1d42D71f6eb0cbe497A0c4658630b2d",
+  RYUUKO_FULLNAME: "Matoi Ryuuko",
+  RYUUKO_IPFS_CID: "Qmddy1vi4DbiqhqAtPtEWzZSVsnG5pHVUTjV8zC9gZdGgD",
+  SATSUKI_ADDRESS: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  SATSUKI_IPFS_STRING: "ipfs://QmVrQtYCia8NKcTinry9ajmLs18WwFCDG7MsYjt9q3A2jT/satsuki_",
+  MARKETPLACE_ADDRESS: ""
+};
+
+export default config;
