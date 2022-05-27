@@ -31,7 +31,7 @@ Marketplace is allowed to mint Ryuuko and Satsuki tokens using [OpenZeppelin Acc
   - All ABI interfaces are covered by NatSpec annotations.
   - Generated comprehensive Markdown documentation (located in _docs/Satsuki.md_).
 
-- [ ] YetAnotherCoin token:
+- [x] YetAnotherCoin token:
   - Deployed @0xB89F9f4Da44E29D8A60dC97038E220E3f7642C42 in Rinkeby testnet.
   - Verified on [Etherscan.](https://rinkeby.etherscan.io/address/0xB89F9f4Da44E29D8A60dC97038E220E3f7642C42#code)
   - Fully covered with tests (located in _test/yet-another-coin-test.ts_).
