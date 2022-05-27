@@ -14,7 +14,7 @@ dotenv.config();
 
 const config: HardhatUserConfig = {
   solidity: "0.8.8",
-  // defaultNetwork: "rinkeby",
+  defaultNetwork: "rinkeby",
   networks: {
     rinkeby: {
       url: process.env.ALCHEMY_HTTP_RINKEBY ?? "",
