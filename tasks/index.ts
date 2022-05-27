@@ -1,4 +1,4 @@
+import "./marketplace";
+import "./ryuuko";
+import "./satsuki";
 import "./signerAddresses";
-import "./ryuuko/index";
-import "./satsuki/index";
-import "./marketplace/index";

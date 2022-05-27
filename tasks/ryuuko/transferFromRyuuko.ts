@@ -3,8 +3,7 @@ import { task } from "hardhat/config";
 import config from '../../config';
 
 task("transferFromRyuuko",
-  "Transfer NFT with a given `tokenid` from `seller` to `buyer` with"
-  + " additional `data`.")
+  "Transfer NFT with a given `tokenid` from `seller` to `buyer`.")
   .addParam("signer", "ID of the signer used to make the call.")
   .addParam("tokenid", "ID of the Ryuuko NFT.")
   .addParam("seller", "Address of seller (current NFT owner).")
