@@ -23,7 +23,8 @@ const main = async () => {
   const Marketplace = await ethers.getContractFactory("Marketplace");
   const marketplace = await Marketplace.deploy(
     config.RYUUKO_ADDRESS,
-    config.SATSUKI_ADDRESS
+    config.SATSUKI_ADDRESS,
+    config.YETANOTHERCOIN_ADDRESS
   );
   await marketplace.deployed();
   console.log("Marketplace deployed to:", marketplace.address);

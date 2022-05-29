@@ -43,10 +43,13 @@ contract Ryuuko is ERC721, AccessControl {
   function mintRyuuko(address account)
     public
     onlyRole(MINTER_ROLE)
+    returns (uint256)
   {
     _tokenIds.increment();
     uint256 newItemId = _tokenIds.current();
     _safeMint(account, newItemId);
+
+    return newItemId;
   }
 
   /// @notice Sets NFT matadata (e.g. for OpenSea).

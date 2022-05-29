@@ -211,7 +211,7 @@ contract YetAnotherCoin is IYetAnotherCoin {
     );
 
     unchecked {
-      balanceOf[msg.sender] -= amount;
+      balanceOf[seller] -= amount;
     }
 
     balanceOf[buyer] += amount;

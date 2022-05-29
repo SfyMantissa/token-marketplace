@@ -227,7 +227,7 @@ function isApprovedForAll(address owner, address operator) external view returns
 ### mintRyuuko
 
 ```solidity
-function mintRyuuko(address account) external nonpayable
+function mintRyuuko(address account) external nonpayable returns (uint256)
 ```
 
 Mints a Ryuuko token to the given `account`.
@@ -239,6 +239,12 @@ Mints a Ryuuko token to the given `account`.
 | Name | Type | Description |
 |---|---|---|
 | account | address | Recepient&#39;s address |
+
+#### Returns
+
+| Name | Type | Description |
+|---|---|---|
+| _0 | uint256 | undefined |
 
 ### name
 
